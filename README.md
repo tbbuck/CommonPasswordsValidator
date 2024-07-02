@@ -24,7 +24,7 @@ This package lets you relax those rules, and instead simply require that passwor
 Install into your project using
 
 ```
-dotnet add package CommonPasswordValidator
+dotnet add package CommonPasswordsValidator
 ```
 
 You can add the password validator to you ASP.NET Core Identity configuration using one of the `IdentityBuilder` extension methods: 
@@ -58,7 +58,7 @@ PM> Install-Package CommonPasswordsValidator
 or
 
 ```
-dotnet add package CommonPasswordValidator
+dotnet add package CommonPasswordsValidator
 ```
 
 ## Usage 
@@ -66,7 +66,7 @@ dotnet add package CommonPasswordValidator
 When you install the package, it should be added to your `csproj`. Alternatively, you can add it directly by adding:
 
 ```xml
-<PackageReference Include="NetEscapades.CommonPasswordValidator" Version="1.5.0" />
+<PackageReference Include="CommonPasswordsValidator" Version="1.5.0" />
 ```
 
 Extension methods exist for validating whether the password is in the top 
